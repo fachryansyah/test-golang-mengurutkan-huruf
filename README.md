@@ -11,6 +11,7 @@ $ go get github.com/fachryansyah/test-golang-mengurutkan-huruf
 package main
 
 import "testing"
+import "github.com/fachryansyah/test-golang-mengurutkan-huruf"
 
 func TestModule(test *testing.T) {
 	result := SortWord("osama")
